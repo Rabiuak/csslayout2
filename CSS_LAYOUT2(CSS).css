@@ -1,0 +1,147 @@
+
+/*==========LAYOUT 2 SECTION==========*/
+body{
+	margin: 0px;
+} 
+
+#container{
+	width: 968px;
+	margin: 0px auto;
+	background-color: green;
+}
+
+/*==========HEADER SECTION==========*/
+#header{
+	
+	height: 75px;
+	width: 964px;
+	border: solid 2px #000;
+	color: white;
+}
+
+/*==========NAVIGATION SECTION==========*/
+
+#nav{
+	background: black;
+	height: 30px;
+	width: 964px;
+	border: solid 2px #000;
+	font-weight: bold;
+}
+
+/*==========SIDEBAR SECTION==========*/
+.sidebar{
+	float: left;
+	width: 176px;
+	height: 650px;
+	background: #9c9f84;
+	border-left: solid 2px #000;
+	border-bottom: solid 2px #000;
+	border-bottom-left-radius: lem;
+}
+
+/*==========MAIN SECTION==========*/
+.main{
+	float: left;
+	width: 786px;
+	height: 650px;
+	background: #e5e4d7;
+	border-right: solid 2px #000;
+	border-left: solid 2px #000;
+	border-bottom: solid 2px #000;
+	solid;   font-family: Arial;
+	font-size: 16px;
+	overflow: auto;
+	border-bottom-right-radius: lem;
+}
+
+/*==========BOX SECTION==========*/
+#box{
+	background-color: #4e5a65;
+	border: 2px solid #000;
+	border-radius: lem;
+	font-size: 95%;
+	padding: 10px;
+	margin: 20px;
+	width: 280px;
+	color: white;
+	float: left;
+}
+
+#box1{
+	background-color: #4e5a65;
+	border: 2px solid #000;
+	border-radius: lem;
+	font-size: 95%;
+	padding: 10px;
+	margin: 20px;
+	width: 280px;
+	color: white;
+	float: right;
+}
+
+.test{
+	display: block;
+	text-align: center;
+}
+
+/*==========IMAGE SECTION==========*/
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+
+
+/*==========Media SECTION==========*/
+/*
+@media only screen (max-width: 600px){
+	.sidebar{
+		display: none;
+	}
+
+	#test1{
+		float: left;
+	}
+
+	#box{
+		background-color: darkred;
+	}
+}
+
+@media (max-width: 400px){
+	#box{
+		background-color: darkgreen;
+	}
+}*/
+
+
+
+
+/*==========Media SECTION==========*/
+@media (min-width: 400px) and (max-width: 600px){
+
+	.sidebar, #box1{
+		display: none;
+	}
+
+    #container, .main, #header{
+    	width: 100%;
+    	background-color: darkre;
+    }
+
+	#nav{
+		display: none;
+	}
+
+	#test1{
+		float: left;
+	}
+
+	#box{
+		background-color: darkred;
+	}
+}
